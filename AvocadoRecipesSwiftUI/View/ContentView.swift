@@ -81,7 +81,7 @@ struct ContentView: View {
                     
                 }
             }
-            .ignoresSafeArea(.all)
+            .ignoresSafeArea(.container, edges: .all)
             .padding(0)
         }
         .padding()
